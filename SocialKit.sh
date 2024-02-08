@@ -69,8 +69,8 @@ elif [[ $opcion == "03" || $opcion == "3" ]]; then
   menu
 elif [[ $opcion == "04" || $opcion == "4" ]]; then
   sleep 3s
-  read -p "Ingresa el usuario de la cuenta" usuar
-  sleep -3s
+  read -p "Ingresa el usuario de la cuenta"
+  sleep -3shttps://www.facebook.com/karla.ramirez.562114
   echo -e "Iniciando bots de reporte..."
   sleep 3s
   echo -e "Iniciando ataque..."
